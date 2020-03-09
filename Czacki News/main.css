@@ -34,6 +34,7 @@
 			
 			.thumbnail-col1
 			{
+			float: left;
 			width: 33%;
 			}
 			
@@ -54,7 +55,7 @@
 			
 			.thumbnail_title
 			{
-			font-size: 30px;
+			font-size: 150%;
 			font-family: "Arial";
 			margin-left: 20%;
 			margin-right: 20%;
