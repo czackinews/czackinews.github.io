@@ -1,3 +1,32 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: gray;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+  }
+  
+  li {
+	float: left;
+  }
+  
+  li{
+	  font-family: Arial, Helvetica, sans-serif;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li:hover {
+	background-color: #111;
+  }
+			
 			body
 			{
 			padding: 0px 0px 0px 0px;
@@ -9,6 +38,7 @@
 			font-family: "Arial";
 			font-size: 500%;
 			margin-bottom: 0;
+			z-index: -1;
 			}
 			
 			#second_text
@@ -16,6 +46,7 @@
 			font-family: "Arial";
 			font-size: 50px;
 			margin-top: 0;
+			z-index: -1;
 			}
 			
 			#welcome
@@ -23,6 +54,7 @@
 				position: absolute;
 				left: 5%;
 				top: 35%;
+				z-index: 0;
 			}
 			
 			#main_newspaper
@@ -61,4 +93,16 @@
 			margin-right: 20%;
 			margin-top: 5px;
 			text-align: center;
+			}
+
+			.cat_teaser
+			{
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 250%;
+			text-align: center;
+			width: auto;
+			margin-top: 4%;
+			margin-bottom: 0em;
+			text-decoration: underline;
+			text-decoration-color: chartreuse;
 			}
