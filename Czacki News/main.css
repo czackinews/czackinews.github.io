@@ -1,0 +1,64 @@
+			body
+			{
+			padding: 0px 0px 0px 0px;
+			margin: 0px
+			}
+			
+			#main_text
+			{
+			font-family: "Arial";
+			font-size: 500%;
+			margin-bottom: 0;
+			}
+			
+			#second_text
+			{
+			font-family: "Arial";
+			font-size: 50px;
+			margin-top: 0;
+			}
+			
+			#welcome
+			{
+				position: absolute;
+				left: 5%;
+				top: 35%;
+			}
+			
+			#main_newspaper
+			{
+			object-fit: cover;
+			width: 100%;
+			height: 100%;
+			}
+			
+			.thumbnail-col1
+			{
+			width: 33%;
+			}
+			
+			.thumbnail_photo
+			{
+			object-fit: cover;
+			width: 350px;
+			height: 350px;
+			display: block;
+			/*margin-left: 20%;
+			margin-right: 20%;*/
+			margin-top: 30px;
+			margin-bottom: 0px;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			border-radius: 25px;
+			}
+			
+			.thumbnail_title
+			{
+			font-size: 30px;
+			font-family: "Arial";
+			margin-left: 20%;
+			margin-right: 20%;
+			margin-top: 5px;
+			text-align: center;
+			}
