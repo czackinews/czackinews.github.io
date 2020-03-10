@@ -5,6 +5,15 @@
 	background-color: rgb(64,64,64);
 	margin-right: 20px;
 }
+
+#line
+{
+	color:rgb(168,168,168);
+	background-color: rgb(168,168,168);
+	margin:0;
+	padding:2;
+}
+
 #title:hover
 {
 	background-color: rgb(64,64,64);
