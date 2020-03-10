@@ -1,8 +1,13 @@
 #title
 {
-	font-size: 1.4em;
 	font-family: monospace;
 	background-coor: blue;
+	margin-right: 20px;
+}
+#title:hover
+{
+	background-color: blue;
+	color: black;
 }
 ul 
 {
