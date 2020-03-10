@@ -1,13 +1,14 @@
 #title
 {
 	font-family: monospace;
-	background-coor: blue;
+	color: white;
+	background-color: rgb(64,64,64);
 	margin-right: 20px;
 }
 #title:hover
 {
-	background-color: blue;
-	color: black;
+	background-color: rgb(64,64,64);
+	color: white;
 }
 ul 
 {
