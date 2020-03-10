@@ -1,17 +1,21 @@
+body
+{
+    background-color: rgb(245,245,245);
+}
+
 #title
 {
 	font-family: monospace;
 	color: white;
-	background-color: rgb(64,64,64);
-	margin-right: 20px;
+    font-size: 1.2em;
+    background-color: rgb(64,64,64);
 }
 
 #line
 {
 	color:rgb(168,168,168);
 	background-color: rgb(168,168,168);
-	margin:2;
-	padding:0;
+    padding:3px;
 }
 
 #title:hover
@@ -31,14 +35,11 @@ ul
 	z-index: 1;
 }
   
-  li 
-{
-	float: left;
-}
-  
   li
 {
-	  font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    font-size:1.2em;
+    font-family: Arial, Helvetica, sans-serif;
 	display: block;
 	color: white;
 	text-align: center;
@@ -46,8 +47,8 @@ ul
 	text-decoration: none;
 }
   
-  /* Change the link color to #111 (black) on hover */
-  li:hover {
+  li:hover
+  {
 	background-color: #111;
   }
 			
@@ -128,5 +129,5 @@ ul
 			margin-top: 4%;
 			margin-bottom: 0em;
 			text-decoration: underline;
-			text-decoration-color: chartreuse;
+			text-decoration-color: blue;
 			}
