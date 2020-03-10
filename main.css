@@ -1,4 +1,11 @@
-ul {
+#itle
+{
+	font-size: 1.4em;
+	font-family: monospace;
+	background-coor: blue;
+}
+ul 
+{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -7,20 +14,22 @@ ul {
 	position: fixed;
 	width: 100%;
 	z-index: 1;
-  }
+}
   
-  li {
+  li 
+{
 	float: left;
-  }
+}
   
-  li{
+  li
+{
 	  font-family: Arial, Helvetica, sans-serif;
 	display: block;
 	color: white;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-  }
+}
   
   /* Change the link color to #111 (black) on hover */
   li:hover {
@@ -51,10 +60,10 @@ ul {
 			
 			#welcome
 			{
-				position: absolute;
-				left: 5%;
-				top: 35%;
-				z-index: 0;
+			position: absolute;
+			left: 5%;
+			top: 35%;
+			z-index: 0;
 			}
 			
 			#main_newspaper
