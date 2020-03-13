@@ -107,6 +107,27 @@ ul
     width: 33%;
     z-index:0;
 }
+
+.column:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.thumbnail-col2
+{
+    float: left;
+    width: 33%;
+    z-index:0;
+}
+
+.thumbnail-col3
+{
+    float: left;
+    width: 33%;
+    z-index:0;
+}
 			
 .thumbnail_photo
 {
