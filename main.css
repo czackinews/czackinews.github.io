@@ -139,7 +139,7 @@ ul
     font-size: 250%;
     text-align: center;
     width: auto;
-    margin-top: 4%;
+    margin-top: 0%;
     margin-bottom: 0em;
     text-decoration: underline;
     text-decoration-color: blue;
@@ -147,6 +147,18 @@ ul
 
 #main_part
 {
-    position: relative;
+    /* position: absolute; */
     z-index:0;
+    width: auto;
+}
+
+#thumbnail-section
+{
+    overflow: auto;
+}
+
+#footer
+{
+    z-index: 0;
+    position: absolute;
 }
