@@ -1,9 +1,14 @@
 body
 {
-    background-color: rgb(245,245,245);
+    background-color: rgb(245,243,242);
     padding: 0px 0px 0px 0px;
     margin: 0px;
     margin-bottom:0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 #title
@@ -148,10 +153,16 @@ ul
 {
     font-size: 150%;
     font-family: "Arial";
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 5px;
     text-align: center;
+}
+
+.thumbnail_title:hover
+{
+    text-decoration: underline;
+    text-decoration-color: blue;
 }
 
 .cat_teaser
@@ -160,7 +171,7 @@ ul
     font-size: 250%;
     text-align: center;
     width: auto;
-    margin-top: 0%;
+    margin-top: 4%;
     margin-bottom: 0em;
     text-decoration: underline;
     text-decoration-color: blue;
@@ -182,4 +193,5 @@ ul
 {
     z-index: 0;
     position: absolute;
+    margin-bottom: 2%;
 }
