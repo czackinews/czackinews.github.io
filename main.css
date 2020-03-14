@@ -6,7 +6,8 @@ body
     margin-bottom:0px;
 }
 
-a{
+a
+{
     text-decoration: none;
     color: black;
 }
@@ -49,8 +50,10 @@ ul
 	overflow: hidden;
 	background-color: gray;
 	position: fixed;
+    top:0;
 	width: 100%;
 	z-index: 1;
+    height: 8%;
 }
   
   li
@@ -184,12 +187,35 @@ ul
 
 #main_part
 {
-    /* position: absolute; */
     z-index:0;
     width: auto;
+    font-family: sans-serif;
+    padding: 15px;
+    padding-left: 30px;
+    margin-top:15px;
 }
 
 #thumbnail-section
 {
     overflow: auto;
+}
+
+#sec_title
+{
+    font-family: Arial, sans-serif;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    font-size: 50px;
+    text-align: left;
+    padding:0px;
+    margin-bottom:10px;
+    margin-left:30px;
+}
+
+#sec_com
+{
+    margin-left:40px;
+    margin-top: 25px;
+    font-size: 18px;
+    font-family: sans-serif;
 }
