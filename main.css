@@ -26,8 +26,13 @@ a{
     font-family: sans-serif;
     font-size: 16px;
     position: relative;
-    color: rgb(120,120,120);
+    background-color: rgb(120,120,120);
+    color: white;
     margin-bottom:0px;
+    z-index: 0;
+    position: absolute;
+    padding-bottom:20px;
+    padding-top:25px;
 }
 
 #title:hover
@@ -187,11 +192,4 @@ ul
 #thumbnail-section
 {
     overflow: auto;
-}
-
-#footer
-{
-    z-index: 0;
-    position: absolute;
-    margin-bottom: 2%;
 }
