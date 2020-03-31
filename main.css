@@ -81,6 +81,15 @@ ul
     z-index: -1;
 }
 
+#main_text_white
+{
+    font-family: "Arial";
+    font-size: 550%;
+    margin-bottom: 15px;
+    z-index: -1;
+    color: white;
+}
+
 #second_text
 {
     font-family: "Arial";
@@ -88,6 +97,17 @@ ul
     margin-top: 0;
     z-index: -1;
     margin-bottom: 15px;
+}
+
+
+#second_text_white
+{
+    font-family: "Arial";
+    font-size: 55px;
+    margin-top: 0;
+    z-index: -1;
+    margin-bottom: 15px;
+    color: white;
 }
 
 #third_text
