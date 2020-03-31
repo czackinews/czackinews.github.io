@@ -36,6 +36,21 @@ a
     padding-top:25px;
 }
 
+#artykuł
+{
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: large;
+    line-height: 1.4em;
+}
+
+#tyt_art
+{
+    margin-left: 18%;
+    margin-right: 18%;
+    font-size: x-large;
+}
+
 .title:hover
 {
 	background-color: rgb(64,64,64);
