@@ -6,6 +6,12 @@ body
     margin-bottom:0px;
 }
 
+#logo_transparent{
+    height: 50px;
+    margin-top: 0;
+    padding-top: 0px;
+}
+
 a
 {
     text-decoration: none;
@@ -17,7 +23,11 @@ a
 	font-family: monospace;
 	color: white;
     font-size: 1.2em;
-    background-color: rgb(64,64,64);
+    background-color: rgb(153, 153, 153);
+}
+
+li.title{
+    padding: 0;
 }
 
 #footer
@@ -64,10 +74,9 @@ a
     }
   }
 
-  .title:hover
-{
-	background-color: rgb(64,64,64);
-	color: white;
+.title:hover {
+    background-color: rgb(100,100,100);
+    color: white;
 }
 
 ul 
