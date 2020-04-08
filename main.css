@@ -245,7 +245,7 @@ ul
     margin-top: 4%;
     margin-bottom: 0em;
     text-decoration: underline;
-    text-decoration-color: blue;
+    text-decoration-color: grey;
 }
 
 #main_part
@@ -267,7 +267,7 @@ ul
 {
     font-family: Arial, sans-serif;
     text-decoration: underline;
-    text-decoration-color: blue;
+    text-decoration-color: grey;
     font-size: 50px;
     text-align: left;
     padding:0px;
