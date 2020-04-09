@@ -46,8 +46,6 @@ li.title{
     padding-top:25px;
 }
 
-
-
 #artykuł
 {
     margin-left: 20%;
@@ -116,7 +114,6 @@ ul
     font-size: 550%;
     margin-bottom: 15px;
     z-index: -1;
-    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 #main_text_white
@@ -136,7 +133,6 @@ ul
     margin-top: 0;
     z-index: -1;
     margin-bottom: 15px;
-    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 #textabc
@@ -237,7 +233,7 @@ ul
 .thumbnail_title:hover
 {
     text-decoration: underline;
-    text-decoration-color: blue;
+    text-decoration-color: grey;
 }
 
 .cat_teaser
