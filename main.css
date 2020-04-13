@@ -46,6 +46,16 @@ li.title{
     padding-top:25px;
 }
 
+.kontakt
+{
+    height:35px;
+    margin-top:30px;
+    margin-bottom:10px;
+    float:center;
+    margin-left:25px;
+    margin-right:25px;
+}
+
 #artykuł
 {
     margin-left: 20%;
