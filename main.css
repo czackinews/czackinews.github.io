@@ -333,6 +333,25 @@ ul
     font-family: sans-serif;
 }
 
+.link
+{
+    color:grey;
+    text-decoration:underline;
+}
+
+.link:hover
+{
+    color:blue;
+}
+
+.img-subtitle
+{
+    font-size:0.8em;
+    float:bottom;
+    margin-left:8px;
+    margin-top:8px;
+}
+
 #scroll{
     right:0px;
     top:0px;
