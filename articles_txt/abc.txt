@@ -1,6 +1,9 @@
 title: Twoja twarz brzmi znajomo
 subtitle: Program stworzony przez szatana?
-date: 14.04.2020
+date: 2020-04-14
 tags: technologia, sport
 introduction: Zdecydowanie tak.
+thumbnail_image: easter.jpg
+art_back_image: big.jpg
+
 Lorem ipsum dolor sit amet
