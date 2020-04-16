@@ -4,7 +4,7 @@ datem = datetime.datetime(today.year, today.month, 1)
 datem = str(datem)
 print(datem[:7])'''
 
-a = open("articles_txt/abc.txt")
+a = open("articles_txt/abc.txt", encoding="UTF-8")
 
 file = str(a.read())
 
