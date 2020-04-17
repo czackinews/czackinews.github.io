@@ -1,9 +1,10 @@
 title: Beta testy
-subtitle: Beta testy
+subttl: Beta testy
 date: 2020-04-14
 tags: technologia, sport
 introduction: Beta
 thumbnail_image: easter.jpg
 art_back_image: big.jpg
+url_address: bob
 
-Beta
+Beta3
