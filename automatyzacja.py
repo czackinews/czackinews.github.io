@@ -64,9 +64,25 @@ def new_article(filename):
 
         path_name_full = path_name + '/' + bebechy_artykulu['url_address: '] + '.html'
 
-        article_file = open(path_name_full, 'wb')
-        article_file.write(article_finished.encode())
-        article_file.close()
+        import os.path
+        file_already_exists = True
+        
+        if os.path.isfile(path_name_full):
+            print('Ten artykuł już istnieje. Czy jesteś pewien, że chcesz przeprowadzić zmiany?')
+            input_file_exists = input('Wpisz TAK by przeprowadzić zmiany. Wciśnij Enter by anulować. ')
+            if input_file_exists == "TAK":
+                file_already_exists = False
+        else:
+            file_already_exists = False
+
+        if file_already_exists == False:
+            article_file = open(path_name_full, 'wb')
+            article_file.write(article_finished.encode())
+            article_file.close()
+            print('Tworzenie artykułu zakończone.')
+        else:
+            print('Anulowano.')
+
         a.close()
 
 
