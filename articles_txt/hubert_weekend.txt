@@ -1,0 +1,13 @@
+title: "Odwołajmy weekendy!"
+subttl: Znany rewolucjonista Hubert K. żąda zmiany układu tygodnia
+date: 2020-04-21
+tags: ZC
+introduction: Wiele słyszy się o szaleńcach próbujących wywołać trwałe zmiany w odgórnie ustalonym układzie rzeczy. Tym razem jednak szaleństwo rewolucjonistów przekroczyło wszelkie granice. Hubert K., ps. “Obelix”, żąda usunięcia weekendu z układu tygodnia.
+
+thumbnail_image: easter.jpg
+art_back_image: big.jpg
+url_address: odwolajmy_weekendy_rewolucjonista
+
+“To jest jakiś burdel” - stwierdził otwarcie podczas lekcji polskiego. - “Teraz nie ma czegoś takiego jak weekend, tylko są dni. [...] Zróbmy lekcje w sobotę.”
+
+Amerykańska policja stanu Teksas zapowiedziała wsparcie dla polskich służb starających się zniwelować wpływ Huberta K. na innych uczniów. Zapraszamy do relacji na żywo.
