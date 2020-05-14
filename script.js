@@ -20,6 +20,9 @@ function CSSfunction(a){
 
         var thumbnail_col1 = document.getElementsByClassName("thumbnail-col1")[0]
         thumbnail_col1.style.width = "33%";
+
+        var thumbnail_col2 = document.getElementsByClassName("thumbnail-col2")
+        thumbnail_col2.style.width = "33%";
     }
 }
 
@@ -27,6 +30,9 @@ function CSSfunction_mobile(b){
     if (b.matches) {
         var thumbnail_col1 = document.getElementsByClassName("thumbnail-col1")[0]
         thumbnail_col1.style.width = "100%";
+
+        var thumbnail_col2 = document.getElementsByClassName("thumbnail-col2")
+        thumbnail_col2.style.width = "100%";
     }
 }
 
