@@ -17,22 +17,68 @@ function CSSfunction(a){
         var menu_option = document.getElementById("menu_option")
         menu_option.style.visibility = "initial";
         menu_option.style.display = "block";
+        
+        //var thumbnail_photo = document.getElementsByClassName("thumbnail_photo")[0]
+        //thumbnail_photo.style.width = "100%";
+        //thumbnail_photo.style.float = "auto";
+        //var thumbnail_title = document.getElementsByClassName("thumbnail_title")[0]
+        //thumbnail_title.style.float = "auto";
 
         var thumbnail_col1 = document.getElementsByClassName("thumbnail-col1")[0]
         thumbnail_col1.style.width = "33%";
+        var thumbnail_col1 = document.getElementsByClassName("thumbnail-col1")[1]
+        thumbnail_col1.style.width = "33%";
+        var thumbnail_col1 = document.getElementsByClassName("thumbnail-col1")[2]
+        thumbnail_col1.style.width = "33%";
 
-        var thumbnail_col2 = document.getElementsByClassName("thumbnail-col2")
+        var thumbnail_col2 = document.getElementsByClassName("thumbnail-col2")[0]
         thumbnail_col2.style.width = "33%";
+        var thumbnail_col2 = document.getElementsByClassName("thumbnail-col2")[1]
+        thumbnail_col2.style.width = "33%";
+        var thumbnail_col2 = document.getElementsByClassName("thumbnail-col2")[2]
+        thumbnail_col2.style.width = "33%";
+        
+        var thumbnail_col3 = document.getElementsByClassName("thumbnail-col3")[0]
+        thumbnail_col3.style.width = "33%";
+        var thumbnail_col3 = document.getElementsByClassName("thumbnail-col3")[1]
+        thumbnail_col3.style.width = "33%";
+        var thumbnail_col3 = document.getElementsByClassName("thumbnail-col3")[2]
+        thumbnail_col3.style.width = "33%";
     }
 }
 
 function CSSfunction_mobile(b){
     if (b.matches) {
+        
+        //var thumbnail_photo = document.getElementsByClassName("thumbnail_photo")[0]
+        //thumbnail_photo.style.width = "50%";
+        //thumbnail_photo.style.float = "left";
+        //var thumbnail_title = document.getElementsByClassName("thumbnail_title")[0]
+        //thumbnail_title.style.float = "right";
+        
         var thumbnail_col1 = document.getElementsByClassName("thumbnail-col1")[0]
         thumbnail_col1.style.width = "100%";
+        var thumbnail_photo = document.getElementsByClassName("thumbnail-col1")[0]
+        thumbnail_col1.style.width = "100%";
+        
+        var thumbnail_col1 = document.getElementsByClassName("thumbnail-col1")[1]
+        thumbnail_col1.style.width = "100%";
+        var thumbnail_col1 = document.getElementsByClassName("thumbnail-col1")[2]
+        thumbnail_col1.style.width = "100%";
 
-        var thumbnail_col2 = document.getElementsByClassName("thumbnail-col2")
+        var thumbnail_col2 = document.getElementsByClassName("thumbnail-col2")[0]
         thumbnail_col2.style.width = "100%";
+        var thumbnail_col2 = document.getElementsByClassName("thumbnail-col2")[1]
+        thumbnail_col2.style.width = "100%";
+        var thumbnail_col2 = document.getElementsByClassName("thumbnail-col2")[2]
+        thumbnail_col2.style.width = "100%";
+        
+        var thumbnail_col3 = document.getElementsByClassName("thumbnail-col3")[0]
+        thumbnail_col3.style.width = "100%";
+        var thumbnail_col3 = document.getElementsByClassName("thumbnail-col3")[1]
+        thumbnail_col3.style.width = "100%";
+        var thumbnail_col3 = document.getElementsByClassName("thumbnail-col3")[2]
+        thumbnail_col3.style.width = "100%";
     }
 }
 
