@@ -153,7 +153,7 @@ ul
   
   li
 {
-    float: left;
+    float: initial;
     font-size:1.2em;
     font-family: Arial, Helvetica, sans-serif;
 	display: block;
@@ -371,7 +371,7 @@ ul
     z-index:2;
     position: fixed;
     padding: 20px;
-    display: none;
+    display: initial;
 }
 
 #scroll_picture {
@@ -380,18 +380,27 @@ ul
 }
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (min-width: 1100px) {
     li{
-        float: initial;
-    }
-    ul{
-        height: auto;
+        float: left;
     }
 
     #scroll{
+        display: none;
+    }
+
+    #menu_option{
         display: initial;
     }
 }
+
+
+ul{
+    height: auto;
+}
+
+
+
 
 /*
 @media only screen and (max-width: 1000px){
