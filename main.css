@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Sans+Condensed:ital@0;1&family=IBM+Plex+Sans:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=IBM+Plex+Serif:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 
 body
@@ -66,6 +68,7 @@ li.title{
     margin-right: 20%;
     font-size: large;
     line-height: 1.4em;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
 #tyt_art
@@ -73,6 +76,7 @@ li.title{
     margin-left: 18%;
     margin-right: 18%;
     font-size: x-large;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
 #author
@@ -95,7 +99,7 @@ li.title{
 }
 
 #about_author{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-size: 16px;
     padding-bottom: 0;
     margin-bottom: 0;
@@ -288,7 +292,7 @@ ul
 {
     font-size: 180%;
     /*font-family: 'IBM Plex Sans', sans-serif; */
-    font-family: "Alata", Arial, Helvetica, sans-serif;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
     margin-left: 5%;
     margin-right: 5%;
     text-align: left;
@@ -331,7 +335,7 @@ ul
 
 #sec_title
 {
-    font-family: "Alata", Arial, Helvetica, sans-serif;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
     text-decoration: underline;
     text-decoration-color: grey;
     font-size: 50px;
@@ -450,7 +454,8 @@ ul
 
     .thumbnail-a{
         display: block;
-    align-items:initial;
+        align-items:initial;
+        border: none;
     }
 }
 
