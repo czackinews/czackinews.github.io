@@ -7,7 +7,7 @@ body
 }
 
 #logo_transparent{
-    height: 50px;
+    height: 70px;
     margin-top: 0;
     padding-top: 0px;
 }
@@ -154,7 +154,7 @@ ul
   li
 {
     float: initial;
-    font-size:1.2em;
+    font-size:1.8em;
     font-family: Arial, Helvetica, sans-serif;
 	display: block;
 	color: white;
@@ -243,7 +243,7 @@ ul
 .thumbnail-col1
 {
     float: left;
-    width: 33%;
+    width: 100%;
     z-index:0;
 }
 
@@ -257,29 +257,26 @@ ul
 .thumbnail-col2
 {
     float: left;
-    width: 33%;
+    width: 100%;
     z-index:0;
 }
 
 .thumbnail-col3
 {
     float: left;
-    width: 33%;
+    width: 100%;
     z-index:0;
 }
 			
 .thumbnail_photo
 {
     object-fit: cover;
-    width: 90%;
+    width: 25%;
+    float: left;
     display: block;
-    /*margin-left: 20%;
-    margin-right: 20%;*/
     margin-top: 30px;
     margin-bottom: 0px;
-    /*display: block;*/
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 7%;
     border-radius: 25px;
 }
 
@@ -289,8 +286,12 @@ ul
     font-family: "Arial";
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 5px;
-    text-align: center;
+    margin-top: 30px;
+    text-align: left;
+    width: 55%;
+    float: left;
+    padding-top: 9%;
+    padding-bottom: 9%;
 }
 
 .thumbnail_title:hover
@@ -370,19 +371,20 @@ ul
     top:0px;
     z-index:2;
     position: fixed;
-    padding: 20px;
+    padding: 30px;
     display: initial;
 }
 
 #scroll_picture {
     right: 10px;
-    height: 10px;
+    height: 20px;
 }
 
 
 @media only screen and (min-width: 1100px) {
     li{
         float: left;
+        font-size:1.2em;
     }
 
     #scroll{
@@ -391,6 +393,48 @@ ul
 
     #menu_option{
         display: initial;
+    }
+
+    .thumbnail-col1{
+        width: 33%;
+    }
+    .thumbnail-col2{
+        width: 33%;
+    }
+    .thumbnail-col3{
+        width: 33%;
+    }
+
+
+    .thumbnail_photo
+    {
+    width: 90%;
+    float: initial;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    }
+
+    .thumbnail_title
+    {
+    font-size: 150%;
+    font-family: "Arial";
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5px;
+    text-align: center;
+    width: auto;
+    float: initial;
+    padding-top: 0;
+    padding-bottom: 0;
+    }
+
+    #logo_transparent
+    {
+    height: 50px;
     }
 }
 
