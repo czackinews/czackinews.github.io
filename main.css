@@ -380,6 +380,9 @@ ul
     height: 20px;
 }
 
+#menu_option{
+    display: none;
+}
 
 @media only screen and (min-width: 1100px) {
     li{
