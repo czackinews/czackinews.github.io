@@ -449,13 +449,17 @@ ul
 
     #logo_transparent
     {
-    height: 50px;
+    height: 54px;
     }
 
     .thumbnail-a{
         display: block;
         align-items:initial;
         border: none;
+    }
+
+    ul{
+        height: 50px;
     }
 }
 
