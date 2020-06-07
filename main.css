@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Sans+Condensed:ital@0;1&family=IBM+Plex+Sans:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=IBM+Plex+Serif:ital@0;1&display=swap');
+
+
 body
 {
     background-color: rgb(245,243,242);
@@ -34,7 +38,7 @@ li.title{
 {
     width: 100%;
     text-align: center;
-    font-family: sans-serif;
+    font-family: "Alata", Arial, Helvetica, sans-serif;
     font-size: 16px;
     position: relative;
     background-color: rgb(120,120,120);
@@ -155,7 +159,7 @@ ul
 {
     float: initial;
     font-size:1.8em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Alata", Arial, Helvetica, sans-serif;
 	display: block;
 	color: white;
 	text-align: center;
@@ -170,7 +174,7 @@ ul
 			
 #main_text
 {
-    font-family: "Arial";
+    font-family: "Alata", Arial, Helvetica, sans-serif;
     font-size: 550%;
     margin-bottom: 15px;
     z-index: -1;
@@ -180,7 +184,7 @@ ul
 
 #main_text_white
 {
-    font-family: "Arial";
+    font-family: "Alata", Arial, Helvetica, sans-serif;
     font-size: 550%;
     margin-bottom: 15px;
     z-index: -1;
@@ -190,7 +194,7 @@ ul
 
 #second_text
 {
-    font-family: "Arial";
+    font-family: "Alata", Arial, Helvetica, sans-serif;
     font-size: 55px;
     margin-top: 0;
     z-index: -1;
@@ -207,7 +211,7 @@ ul
 
 #second_text_white
 {
-    font-family: "Arial";
+    font-family: "Alata", Arial, Helvetica, sans-serif;
     font-size: 50px;
     margin-top: 0;
     z-index: -1;
@@ -218,7 +222,7 @@ ul
 
 #third_text
 {
-    font-family: "Arial";
+    font-family: "Alata", Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-size: 25px;
     margin-top: 0;
@@ -274,24 +278,22 @@ ul
     width: 25%;
     float: left;
     display: block;
-    margin-top: 30px;
-    margin-bottom: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     margin-left: 7%;
     border-radius: 25px;
 }
 
 .thumbnail_title
 {
-    font-size: 150%;
-    font-family: "Arial";
+    font-size: 180%;
+    /*font-family: 'IBM Plex Sans', sans-serif; */
+    font-family: "Alata", Arial, Helvetica, sans-serif;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 30px;
     text-align: left;
     width: 55%;
     float: left;
-    padding-top: 9%;
-    padding-bottom: 9%;
 }
 
 .thumbnail_title:hover
@@ -302,7 +304,7 @@ ul
 
 .cat_teaser
 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Alata", Arial, Helvetica, sans-serif;
     font-size: 250%;
     text-align: center;
     width: auto;
@@ -329,7 +331,7 @@ ul
 
 #sec_title
 {
-    font-family: Arial, sans-serif;
+    font-family: "Alata", Arial, Helvetica, sans-serif;
     text-decoration: underline;
     text-decoration-color: grey;
     font-size: 50px;
@@ -384,6 +386,13 @@ ul
     display: none;
 }
 
+.thumbnail-a{
+    display: flex;
+    align-items:center;
+    border-bottom: 1px solid #80808087;
+}
+
+
 @media only screen and (min-width: 1100px) {
     li{
         float: left;
@@ -424,7 +433,6 @@ ul
     .thumbnail_title
     {
     font-size: 150%;
-    font-family: "Arial";
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 5px;
@@ -438,6 +446,11 @@ ul
     #logo_transparent
     {
     height: 50px;
+    }
+
+    .thumbnail-a{
+        display: block;
+    align-items:initial;
     }
 }
 
