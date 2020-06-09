@@ -488,11 +488,11 @@ ul
     }
 
     #main_text{
-        font-size: 550%;
+        font-size: 500%;
     }
 
     #main_text_white{
-        font-size: 700%;
+        font-size: 500%;
     }
 
     #sec_title{
@@ -506,6 +506,10 @@ ul
 
     #second_text{
         font-size: 55px;
+    }
+
+    #second_text_white{
+        font-size: 200%;
     }
 
     #third_text{
