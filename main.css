@@ -62,15 +62,6 @@ li.title{
     margin-right:25px;
 }
 
-#artykuł
-{
-    margin-left: 20%;
-    margin-right: 20%;
-    font-size: large;
-    line-height: 1.4em;
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
-}
-
 #tyt_art
 {
     margin-left: 18%;
@@ -129,16 +120,17 @@ li.title{
     height: auto;
 }
 
-@media only screen and (max-width: 600px) {
-    #tyt_art {
-      margin-left: 0px;
-      margin-right: 0px;
-    }
-    #artykuł{
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-  }
+#tyt_art {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#artykuł{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: large;
+    line-height: 1.4em;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
 
 .title:hover {
     background-color: rgb(100,100,100);
@@ -460,6 +452,15 @@ ul
 
     ul{
         height: 50px;
+    }
+    #artykuł
+    {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    #tyt_art {
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }
 
