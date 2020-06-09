@@ -64,9 +64,10 @@ li.title{
 
 #tyt_art
 {
-    margin-left: 18%;
-    margin-right: 18%;
+    margin-left: 3%;
+    margin-right: 3%;
     font-size: x-large;
+    text-align: justify;
     font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
@@ -120,14 +121,11 @@ li.title{
     height: auto;
 }
 
-#tyt_art {
-    margin-left: 0px;
-    margin-right: 0px;
-}
 #artykuł{
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
     font-size: large;
+    text-align: justify;
     line-height: 1.4em;
     font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
@@ -455,8 +453,8 @@ ul
     }
     #artykuł
     {
-        margin-left: 20%;
-        margin-right: 20%;
+        margin-left: 15%;
+        margin-right: 15%;
     }
     #tyt_art {
         margin-left: 10%;
