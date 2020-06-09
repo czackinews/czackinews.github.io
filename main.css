@@ -13,7 +13,7 @@ body
 }
 
 #logo_transparent{
-    height: 70px;
+    height: 110px;
     margin-top: 0;
     padding-top: 0px;
 }
@@ -41,7 +41,7 @@ li.title{
     width: 100%;
     text-align: center;
     font-family: "Alata", Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 30px;
     position: relative;
     background-color: rgb(120,120,120);
     color: white;
@@ -54,9 +54,9 @@ li.title{
 
 .kontakt
 {
-    height:35px;
-    margin-top:30px;
-    margin-bottom:10px;
+    height:50px;
+    margin-top:50px;
+    margin-bottom:40px;
     float:center;
     margin-left:25px;
     margin-right:25px;
@@ -152,12 +152,12 @@ ul
   li
 {
     float: initial;
-    font-size:1.8em;
+    font-size:2.5em;
     font-family: "Alata", Arial, Helvetica, sans-serif;
 	display: block;
 	color: white;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 20px 16px;
 	text-decoration: none;
 }
   
@@ -169,7 +169,7 @@ ul
 #main_text
 {
     font-family: "Alata", Arial, Helvetica, sans-serif;
-    font-size: 550%;
+    font-size: 700%;
     margin-bottom: 15px;
     z-index: -1;
     color: black;
@@ -179,7 +179,7 @@ ul
 #main_text_white
 {
     font-family: "Alata", Arial, Helvetica, sans-serif;
-    font-size: 550%;
+    font-size: 700%;
     margin-bottom: 15px;
     z-index: -1;
     color: white;
@@ -189,7 +189,7 @@ ul
 #second_text
 {
     font-family: "Alata", Arial, Helvetica, sans-serif;
-    font-size: 55px;
+    font-size: 70px;
     margin-top: 0;
     z-index: -1;
     margin-bottom: 15px;
@@ -218,7 +218,7 @@ ul
 {
     font-family: "Alata", Arial, Helvetica, sans-serif;
     font-weight: normal;
-    font-size: 25px;
+    font-size: 40px;
     margin-top: 0;
     z-index: -1;
 }
@@ -280,7 +280,7 @@ ul
 
 .thumbnail_title
 {
-    font-size: 180%;
+    font-size: 220%;
     /*font-family: 'IBM Plex Sans', sans-serif; */
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     margin-left: 5%;
@@ -299,7 +299,7 @@ ul
 .cat_teaser
 {
     font-family: "Alata", Arial, Helvetica, sans-serif;
-    font-size: 250%;
+    font-size: 400%;
     text-align: center;
     width: auto;
     margin-top: 4%;
@@ -328,11 +328,12 @@ ul
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     text-decoration: underline;
     text-decoration-color: grey;
-    font-size: 50px;
+    font-size: 70px;
     text-align: left;
     padding:0px;
     margin-bottom:10px;
     margin-left:30px;
+    margin-top: 120px;
 }
 
 #sec_com
@@ -367,13 +368,13 @@ ul
     top:0px;
     z-index:2;
     position: fixed;
-    padding: 30px;
+    padding: 45px;
     display: initial;
 }
 
 #scroll_picture {
     right: 10px;
-    height: 20px;
+    height: 30px;
 }
 
 #menu_option{
@@ -391,6 +392,7 @@ ul
     li{
         float: left;
         font-size:1.2em;
+        padding: 14px 16px;
     }
 
     #scroll{
@@ -460,7 +462,59 @@ ul
         margin-left: 10%;
         margin-right: 10%;
     }
+
+    #scroll_picture {
+        right: 10px;
+        height: 20px;
+    }
+
+    #scroll{
+        padding: 30px;
+    }
+    #footer{
+        font-size: 16px;
+    }
+
+    .kontakt{
+    height:35px;
+    margin-top:30px;
+    margin-bottom:10px;
+    float:center;
+    margin-left:25px;
+    margin-right:25px; }
+
+    .cat_teaser {
+    font-size: 250%;
+    }
+
+    #main_text{
+        font-size: 550%;
+    }
+
+    #main_text_white{
+        font-size: 700%;
+    }
+
+    #sec_title{
+        margin-top: 60px;
+        font-size: 50px;
+    }
+
+    .thumbnail_title {
+        font-size: 180%;
+    }
+
+    #second_text{
+        font-size: 55px;
+    }
+
+    #third_text{
+        font-size: 25px;
+    }
 }
+
+
+
 
 
 ul{
