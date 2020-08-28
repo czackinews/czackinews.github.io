@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:200i,300,400,700">
-    </head>
+
+<head>
+    <title>Czacki News</title>
+    <link rel="shortcut icon" href="img/icon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:200i,300,400,700">
+</head>
+
 <style>
 body, html {
   height: 100%;
@@ -17,13 +21,13 @@ body, html {
   position: relative;
   color: white;
   font-family: "Montserrat", Courier, monospace;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .topleft {
-  position: absolute;
-  top: 0;
-  left: 16px;
+  margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .bottomleft {
@@ -38,23 +42,57 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  font-size: 40px;
 }
 
 hr {
   margin: auto;
   width: 40%;
 }
+
+#logo{
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    padding-top: 15px;
+}
+
+h1{
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width: 900px) {
+  
+  .middle{
+      font-size: 50px !important;
+  }
+
+  .bgimg{
+    font-size: 25px;
+  }
+
+  #logo{
+    width: 300px;
+    padding-left: 15px;
+    padding-top: 30px;
+  }
+
+}
 </style>
+
+
 <body>
 
 <div class="bgimg">
   <div class="topleft">
-    <p>Czacki News</p>
+    <img id="logo" src="img/logo_transparent.png">
   </div>
   <div class="middle">
     <h1>JUŻ WKRÓTCE</h1>
     <hr>
-    <p id="demo" style="font-size:30px"></p>
+    <p id="demo"></p>
   </div>
   <div class="bottomleft">
     <!-- <p>Some text</p> -->
