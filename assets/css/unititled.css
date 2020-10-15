@@ -1,0 +1,61 @@
+#mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link{
+    color: white;
+}
+
+#mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:hover{
+    color: white;
+}
+
+#mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus{
+    color: white;
+}
+
+.nav-link:focus{
+    color: orange;
+}
+
+.nav-item > a:hover{
+    color: orange;
+}
+
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active{
+    color: white !important;
+}
+
+#mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus:hover, #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:hover{
+    color: white;
+}
+
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active {
+    color: white!important;
+}
+
+#mainNav .navbar-nav>li.nav-item>a.nav-link, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus{
+    color: white;
+}
+
+@media (min-width: 992px){
+    #mainNav .navbar-nav>li.nav-item>a.nav-link, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
+        color: white;
+    }
+}
+
+a, a:hover{
+    color: initial;
+}
+
+.newsletter8 .btn-danger-gradiant{
+    background-color: #EE4B28 !important;
+    background: #EE4B28 !important;
+}
+
+.snip1527 figcaption:before{
+    background-color: #EE4B28 !important;
+    background: #EE4B28 !important;
+}
+
+.team-boxed .people {
+    padding: 50px 0 0 !important;
+}
+
+
