@@ -40,6 +40,10 @@
     }
 }
 
+.newsletter8 .blog-row h5{
+    margin-top: 0 !important;
+}
+
 a, a:hover{
     color: initial;
 }
