@@ -48,6 +48,19 @@ a, a:hover{
     color: initial;
 }
 
+.section_name {
+    font-size: 28px !important;
+    padding-left: 0 !important;
+    margin-bottom: -20px !important;
+}
+
+@media (min-width: 768px){
+    .section_name {
+        font-size: 32px !important;
+    }
+}
+
+
 .newsletter8 .btn-danger-gradiant{
     background-color: #EE4B28 !important;
     background: #EE4B28 !important;
@@ -158,3 +171,4 @@ a, a:hover{
         max-width: 1140px;
     }
 }
+
